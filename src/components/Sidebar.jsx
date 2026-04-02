@@ -36,6 +36,7 @@ export default function Sidebar({ mobile, onClose }) {
       </nav>
 
       <div className="sidebar__footer">
+       
 
         <button
           className="theme-toggle"

@@ -83,9 +83,6 @@ html, body, #root {
   -webkit-font-smoothing: antialiased;
 }
 
-/* ════════════════════════════════
-   APP LAYOUT — THIS IS THE KEY FIX
-   ════════════════════════════════ */
 
 .app {
   display: flex;
@@ -102,9 +99,7 @@ html, body, #root {
   background: var(--bg);
 }
 
-/* ════════════════════════════════
-   SIDEBAR
-   ════════════════════════════════ */
+
 
 .sidebar {
   width: var(--sidebar-w);
@@ -301,9 +296,7 @@ html, body, #root {
 
 .theme-toggle:hover { background: var(--surface2); color: var(--text); }
 
-/* ════════════════════════════════
-   MOBILE HEADER
-   ════════════════════════════════ */
+
 
 .mobile-header {
   display: none;
@@ -335,9 +328,7 @@ html, body, #root {
 
 .hamburger:hover { background: var(--surface2); }
 
-/* ════════════════════════════════
-   PAGE — FULL WIDTH, NO CENTERING
-   ════════════════════════════════ */
+
 
 .page {
   width: 100%;
@@ -375,9 +366,7 @@ html, body, #root {
   flex-wrap: wrap;
 }
 
-/* ════════════════════════════════
-   SUMMARY CARDS
-   ════════════════════════════════ */
+
 
 .summary-cards {
   display: grid;
@@ -443,9 +432,6 @@ html, body, #root {
 .summary-card__change.positive { color: var(--income); }
 .summary-card__change.negative { color: var(--expense); }
 
-/* ════════════════════════════════
-   CHARTS
-   ════════════════════════════════ */
 
 .charts-grid {
   display: grid;
@@ -495,9 +481,7 @@ html, body, #root {
   border-bottom: 1px solid var(--border);
 }
 
-/* ════════════════════════════════
-   RECENT LIST
-   ════════════════════════════════ */
+
 
 .recent-section { display: flex; flex-direction: column; gap: 12px; }
 
@@ -564,9 +548,7 @@ html, body, #root {
 .tx-amount--income  { color: var(--income); }
 .tx-amount--expense { color: var(--expense); }
 
-/* ════════════════════════════════
-   TRANSACTIONS PAGE
-   ════════════════════════════════ */
+
 
 .tx-page {
   display: flex;
@@ -678,9 +660,6 @@ html, body, #root {
   flex-wrap: wrap;
 }
 
-/* ════════════════════════════════
-   FILTERS
-   ════════════════════════════════ */
 
 .search-wrap {
   position: relative;
@@ -784,9 +763,7 @@ html, body, #root {
   background: var(--accent-dim) !important;
 }
 
-/* ════════════════════════════════
-   TOTALS BAR
-   ════════════════════════════════ */
+
 
 .tx-totals {
   display: flex;
@@ -815,9 +792,7 @@ html, body, #root {
 .text-income  { color: var(--income); }
 .text-expense { color: var(--expense); }
 
-/* ════════════════════════════════
-   TABLE
-   ════════════════════════════════ */
+
 
 .table-wrap {
   border: 1px solid var(--border);
@@ -892,10 +867,6 @@ html, body, #root {
   font-weight: 500;
 }
 
-/* ════════════════════════════════
-   TAGS
-   ════════════════════════════════ */
-
 .category-tag {
   display: inline-flex;
   align-items: center;
@@ -919,9 +890,7 @@ html, body, #root {
 .type-tag--income  { background: var(--income-dim);  color: var(--income); }
 .type-tag--expense { background: var(--expense-dim); color: var(--expense); }
 
-/* ════════════════════════════════
-   ROW ACTIONS
-   ════════════════════════════════ */
+
 
 .row-actions { display: flex; gap: 4px; justify-content: center; }
 
@@ -941,10 +910,6 @@ html, body, #root {
 
 .row-action:hover { background: var(--surface2); color: var(--text); }
 .row-action--danger:hover { background: var(--expense-dim); color: var(--expense); border-color: var(--expense); }
-
-/* ════════════════════════════════
-   EXPORT DROPDOWN
-   ════════════════════════════════ */
 
 .export-wrap { position: relative; }
 
@@ -977,10 +942,6 @@ html, body, #root {
 
 .export-dropdown button:hover { background: var(--surface2); }
 
-/* ════════════════════════════════
-   BUTTONS
-   ════════════════════════════════ */
-
 .btn {
   display: inline-flex;
   align-items: center;
@@ -1011,9 +972,7 @@ html, body, #root {
 .btn--danger:hover { opacity: 0.88; }
 .btn--sm { padding: 7px 12px; font-size: 12px; }
 
-/* ════════════════════════════════
-   MODAL
-   ════════════════════════════════ */
+
 
 .modal-backdrop {
   position: fixed;
@@ -1086,9 +1045,7 @@ html, body, #root {
   padding: 0 22px 20px;
 }
 
-/* ════════════════════════════════
-   FORM
-   ════════════════════════════════ */
+
 
 .form-row { display: flex; flex-direction: column; gap: 5px; }
 
@@ -1135,9 +1092,7 @@ html, body, #root {
 .type-btn--expense.active { background: var(--expense-dim); color: var(--expense); border-color: var(--expense); }
 .type-btn--income.active  { background: var(--income-dim);  color: var(--income);  border-color: var(--income); }
 
-/* ════════════════════════════════
-   EMPTY STATE
-   ════════════════════════════════ */
+
 
 .empty-state {
   display: flex;
@@ -1154,9 +1109,7 @@ html, body, #root {
   text-align: center;
 }
 
-/* ════════════════════════════════
-   INSIGHTS
-   ════════════════════════════════ */
+
 
 .insights-grid {
   display: grid;
@@ -1291,9 +1244,6 @@ html, body, #root {
   flex-shrink: 0;
 }
 
-/* ════════════════════════════════
-   RESPONSIVE
-   ════════════════════════════════ */
 
 @media (max-width: 1100px) {
   .insights-grid { grid-template-columns: repeat(2, 1fr); }
